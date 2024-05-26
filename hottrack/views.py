@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request: HttpRequest) -> HttpResponse:
-    return render(request=request, template_name="hottract/index.html", context="")
+    return render(request=request, template_name="hottrack/index.html")

@@ -4,6 +4,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("hottract/", include("hottrack.urls")),
-    path(route="", view=lambda request: redirect("/hottract/")),
+    path("hottrack/", include("hottrack.urls")),
+    path(route="", view=lambda request: redirect("/hottrack/")),
 ]
